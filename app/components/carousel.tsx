@@ -16,7 +16,7 @@ export function CarouselDemo() {
         {
             id: 1,
             title: "FRONTEND",
-            image: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+            image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/frontend.png`,
             
         },
         {
