@@ -6,7 +6,7 @@ import { TypewriterEffectSmoothDemo } from "./effetEcriture";
 
 export function TextPresentation() {
   return (
-    <div className="flex items-center gap-12 border-white border-solid border-4 w-full">
+    <div className="flex items-center gap-12 w-full">
       <div className="animate-bounce">
         <AnimatedTooltipPreview />
       </div>

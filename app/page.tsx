@@ -1,7 +1,8 @@
 import { MacbookScrollgo } from "./components/MacbookScrollgo";
 import { CarouselDemo} from "./components/carousel";
-
+import { Ipad } from "./components/ipad";
 import { LampDemo } from "./components/ui/lamp";
+import { ProjetComp } from "./components/projet";
 
 
 export default function Home() {
@@ -13,7 +14,9 @@ export default function Home() {
       
       <main>
         <LampDemo/> {/*section et H1 intégrer a la function */}
-        <CarouselDemo/>
+        <CarouselDemo/> {/*section a la function */}
+        <Ipad/>
+        <ProjetComp/>
       </main>
     </div>
       

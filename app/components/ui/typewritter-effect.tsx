@@ -157,7 +157,7 @@ export const TypewriterEffectSmooth = ({
       >
         {/*----------------------------- taille police (fontSize) en dessous ----------------------------------------------- */}
         <div
-          className="text-xs flex flex-wrap md:text-xl lg:text:3xl xl:text-xl border-red-700 border-solid border-4 "
+          className="text-xs flex flex-wrap md:text-xl lg:text:3xl xl:text-xl"
           style={{
             whiteSpace: "wrap",
           }}

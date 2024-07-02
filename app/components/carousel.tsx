@@ -9,7 +9,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carouselParams";
-import avatar from "../assets/louise.jpg"
 
 export function CarouselDemo() {
     const datas = [
@@ -22,34 +21,28 @@ export function CarouselDemo() {
         {
             id: 2,
             title: "BACKEND",
-            image: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+            image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/backend.png`,
             
         },
         {
             id: 3,
             title: "FRAMEWORK",
-            image: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
-            
-        },
-        {
-            id: 4,
-            title: "AUTRES",
-            image: `https://raw.githubusercontent.com/yanis81/Projet-n6_OC/main/src/assets/banner/aboutBanner.png`,
+            image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/autres.png`,
             
         }
     ]
 
 return (
     <section className="flex item-center justify-center ">
-        <Carousel plugins={[Autoplay({ delay: 5000 })]} className="w-full ">
+        <Carousel plugins={[Autoplay({ delay: 3000 })]} className="w-full max-w-5xl h-full max-h- pb-0">
             <CarouselContent>
                 {
                     datas.map((carousel) => (
-                        <CarouselItem key={carousel.id} className="md:basis-1/2 lg:basis-1/3">
+                        <CarouselItem key={carousel.id} >
                         <div className="p-0">
                             <Card>
                                 <div className="flex justify-center text-3xl"> <p>{carousel.title}</p> </div>
-                                <CardContent className="flex items-center justify-center w-full ">
+                                <CardContent className="flex items-center justify-center w-full">
                                     <img src={carousel.image} alt="Mes competences en Images" />
                                 </CardContent>
                             </Card>
