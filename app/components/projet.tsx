@@ -1,21 +1,26 @@
 "use client";
 
 import React from "react";
-import { ThreeDCardDemo } from "./3D_card";
+import {
+  ThreeDCardDemoP2,
+  ThreeDCardDemoP3,
+  ThreeDCardDemoP4,
+  ThreeDCardDemoP5,
+  ThreeDCardDemoP6,
+  ThreeDCardDemoP7,
+} from "./3D_card";
 
 export function ProjetComp() {
   return (
     <section>
-        <div className="flex gap-3 justify-center flex-wrap items-center">
-            <ThreeDCardDemo/>
-            <ThreeDCardDemo/>
-            <ThreeDCardDemo/> 
-            <ThreeDCardDemo/>
-            <ThreeDCardDemo/>
-            <ThreeDCardDemo/> 
-        </div>
-        
+      <div className="flex gap-x-3 justify-center flex-wrap items-center dark:bg-[#0B0B0F]">
+        <ThreeDCardDemoP2 />
+        <ThreeDCardDemoP3 />
+        <ThreeDCardDemoP4 />
+        <ThreeDCardDemoP5 />
+        <ThreeDCardDemoP6 />
+        <ThreeDCardDemoP7 />
+      </div>
     </section>
-    
-  )
+  );
 }
