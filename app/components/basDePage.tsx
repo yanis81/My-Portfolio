@@ -10,7 +10,7 @@ export function BasDePage() {
       </div>
       <div className="dark:bg-[#0B0B0F] flex flex-col items-center">
         <p>Ce site a été réalisé à la main et ne collecte aucune donnée. Merci de votre visite, passez une bonne journée ! 👋</p> 
-        <p>© 2024 Portolio Lartigue Yanis. Tous droits réserver.</p>
+        <p>© 2024 Portolio Lartigue Yanis. Tous droits réservés.</p>
       </div>
     </section>
     

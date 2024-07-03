@@ -70,7 +70,7 @@ export function ThreeDCardDemoP3() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Créez une page web dynamique avec JavaScript.<br />ㅤ 
+          Créez une page web dynamique avec JavaScript natif.<br />ㅤ 
           
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
@@ -119,7 +119,7 @@ export function ThreeDCardDemoP4() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Planifiez le développement du site de votre client.<br />ㅤ <br />ㅤ <br />ㅤ 
+          Planifiez le développement du site de votre client ( méthode agile, kamban, User Stories).<br />ㅤ<br />ㅤ
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -152,7 +152,7 @@ export function ThreeDCardDemoP5() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Débuggez et optimisez un site de photographe.<br />ㅤ 
+          Débuggez et optimisez un site de photographe (SEO, Ligthouse, Débug).
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -248,7 +248,7 @@ export function ThreeDCardDemoP7() {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Développez le back-end d`un site de notation de livres.<br />ㅤ 
+          Développez le back-end d`un site de notation de livres (NodeJS, Express).
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
