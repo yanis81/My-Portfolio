@@ -5,7 +5,8 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "../components/ui/3d-card";
 import Link from "next/link";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 export function ThreeDCardDemoP2() {
   return (
@@ -39,12 +40,23 @@ export function ThreeDCardDemoP2() {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
+            Lien du Site → <br />
             Lien Github →
           </CardItem>
           <CardItem
             translateZ={20}
             as={Link}
+            href="https://yanis81.github.io/Projet-n2_OC/"
+            target="_blank"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
+          >
+            <FontAwesomeIcon icon={faGlobe} />
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as={Link}
             href="https://github.com/yanis81/Projet-n2_OC"
+            target="_blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
           >
             <FontAwesomeIcon icon={faGithub} />
@@ -88,12 +100,23 @@ export function ThreeDCardDemoP3() {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
+            Lien du Site → <br />
             Lien Github →
           </CardItem>
           <CardItem
             translateZ={20}
             as={Link}
+            href="https://yanis81.github.io/Projet-n3_Publi-/"
+            target="_blank"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
+          >
+            <FontAwesomeIcon icon={faGlobe} />
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as={Link}
             href="https://github.com/yanis81/Projet-n3_OC"
+            target="_blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
           >
             <FontAwesomeIcon icon={faGithub} />
@@ -169,12 +192,23 @@ export function ThreeDCardDemoP5() {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
+            Lien du Site → <br />
             Lien Github →
           </CardItem>
           <CardItem
             translateZ={20}
             as={Link}
+            href="https://yanis81.github.io/Projet-n5_OC/"
+            target="_blank"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
+          >
+            <FontAwesomeIcon icon={faGlobe} />
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as={Link}
             href="https://github.com/yanis81/Projet-n5_OC"
+            target="_blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
           >
             <FontAwesomeIcon icon={faGithub} />
@@ -217,12 +251,23 @@ export function ThreeDCardDemoP6() {
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
+            Lien du Site → <br />
             Lien Github →
           </CardItem>
           <CardItem
             translateZ={20}
             as={Link}
+            href="https://kasa-pearl.vercel.app/accueil"
+            target="_blank"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
+          >
+            <FontAwesomeIcon icon={faGlobe} />
+          </CardItem>
+          <CardItem
+            translateZ={20}
+            as={Link}
             href="https://github.com/yanis81/Projet-n6_OC"
+            target="_blank"
             className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white font-bold text-base"
           >
             <FontAwesomeIcon icon={faGithub} />
