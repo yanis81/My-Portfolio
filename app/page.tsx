@@ -4,6 +4,7 @@ import { Ipad } from "./components/ipad";
 import { LampDemo } from "./components/ui/lamp";
 import { ProjetComp } from "./components/projet";
 import { BasDePage } from "./components/basDePage";
+import {TimelineParcour} from "./components/TimelineParcours"
 
 export default function Home() {
   return (
@@ -13,9 +14,10 @@ export default function Home() {
       </header>
       <main>
         <LampDemo /> {/*section et H1 intégrer a la function et le text presentation*/}
-        <H2carousel /> {/*section a la function  */}
-        <Ipad />
-        <ProjetComp />
+        <TimelineParcour/> {/*section intégrer*/}
+        <H2carousel /> {/*section a la function*/}
+        <Ipad /> {/*section intégrer*/}
+        <ProjetComp /> {/*section intégrer*/}
       </main>
       <footer>
         <BasDePage/>

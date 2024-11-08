@@ -17,16 +17,19 @@ export function CarouselDemo() {
       id: 1,
       title: "FRONTEND",
       image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/frontend.png`,
+      alt: "Mes competences Frontends",
     },
     {
       id: 2,
       title: "BACKEND",
       image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/backend.png`,
+      alt: "Mes competences Backends",
     },
     {
       id: 3,
-      title: "FRAMEWORK",
+      title: "OUTILS",
       image: `https://raw.githubusercontent.com/yanis81/My-Portfolio/main/app/assets/carteInfinie/autres.png`,
+      alt: "Mes competences en outils de travails",
     },
   ];
 
@@ -43,10 +46,10 @@ export function CarouselDemo() {
                 <Card>
                   <div className="flex justify-center text-3xl dark:bg-[#0B0B0F]">
                     {" "}
-                    <p>{carousel.title}</p>{" "}
+                    <h3>{carousel.title}</h3>{" "} 
                   </div>
                   <CardContent className="flex items-center justify-center w-full dark:bg-[#0B0B0F]">
-                    <img src={carousel.image} alt="Mes competences en Images" />
+                    <img src={carousel.image} alt={carousel.alt} />
                   </CardContent>
                 </Card>
               </div>

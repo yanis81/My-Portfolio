@@ -5,7 +5,7 @@ export function BasDePage() {
   return (
     <section className="p-12 dark:bg-[#0B0B0F]">
       <div className="dark:bg-[#0B0B0F] flex items-center flex-col text-xl pb-4 leading-none">
-        <p className="font-bold">Me Contacter : <br /></p>
+        <h2 className="font-bold">Me Contacter : <br /></h2>
         <p className="font-semibold">Lartigueyanis@yahoo.com</p>
       </div>
       <div className="dark:bg-[#0B0B0F] flex flex-col items-center">

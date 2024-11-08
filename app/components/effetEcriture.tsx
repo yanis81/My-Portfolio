@@ -27,7 +27,11 @@ export function TypewriterEffectSmoothDemo() {
       className: "text-2xl",
     },
     {
-      text: "formation",
+      text: "3ème",
+      className: "text-2xl",
+    },
+    {
+      text: "années",
       className: "text-2xl",
     },
     {
@@ -35,19 +39,59 @@ export function TypewriterEffectSmoothDemo() {
       className: "text-2xl",
     },
     {
-      text: "développeur",
+      text: "bachelor",
       className: "text-2xl",
     },
     {
-      text: "Web",
+      text: "Concepteur",
       className: "text-2xl",
     },
     {
-      text: "chez",
+      text: "de",
       className: "text-2xl",
     },
     {
-      text: "OpenClassroom.",
+      text: "Systèmes",
+      className: "text-2xl",
+    },
+    {
+      text: "d’Information",
+      className: "text-2xl",
+    },
+    {
+      text: "SPÉCIALITÉ",
+      className: "text-2xl",
+    },
+    {
+      text: "« Développement Logiciel et Web »",
+      className: "text-2xl",
+    },
+    {
+      text: "à",
+      className: "text-2xl",
+    },
+    {
+      text: "l'Ecole",
+      className: "text-2xl",
+    },
+    {
+      text: "Supérieure",
+      className: "text-2xl",
+    },
+    {
+      text: "du",
+      className: "text-2xl",
+    },
+    {
+      text: "Numérique",
+      className: "text-2xl",
+    },
+    {
+      text: "du",
+      className: "text-2xl",
+    },
+    {
+      text: "Tarn (ESN 81).",
       className: "text-2xl",
     },
     {
@@ -59,15 +103,47 @@ export function TypewriterEffectSmoothDemo() {
       className: "text-2xl",
     },
     {
-      text: "un",
+      text: "titulaire",
       className: "text-2xl",
     },
     {
-      text: "jeune",
+      text: "d'un",
       className: "text-2xl",
     },
     {
-      text: "passionné",
+      text: "diplôme",
+      className: "text-2xl",
+    },
+    {
+      text: "de",
+      className: "text-2xl",
+    },
+    {
+      text: "développeur",
+      className: "text-2xl",
+    },
+    {
+      text: "intégrateur",
+      className: "text-2xl",
+    },
+    {
+      text: "web",
+      className: "text-2xl",
+    },
+    {
+      text: "délivré",
+      className: "text-2xl",
+    },
+    {
+      text: "par",
+      className: "text-2xl",
+    },
+    {
+      text: "OpenClassroom.",
+      className: "text-2xl",
+    },
+    {
+      text: "Passionné",
       className: "text-2xl",
     },
     {
@@ -100,31 +176,6 @@ export function TypewriterEffectSmoothDemo() {
     },
     {
       text: "général.",
-      className: "text-2xl",
-    },
-    {
-      text: "Toujours",
-      className: "text-2xl",
-    },
-    {
-      text: "impatient",
-      className: "text-2xl",
-      
-    },
-    {
-      text: "d'apprendre",
-      className: "text-2xl",
-    },
-    {
-      text: "de",
-      className: "text-2xl",
-    },
-    {
-      text: "nouvelles",
-      className: "text-2xl",
-    },
-    {
-      text: "choses.",
       className: "text-2xl",
     },
     {
