@@ -30,9 +30,6 @@ export const metadata: Metadata = {
     title: "Portfolio de Yanis LARTIGUE",
     description: "Bienvenue sur le Portfolio de Yanis LARTIGUE, je suis un développeur web junior !",
   },
-  alternates: {
-    canonical: "https://yanis-lartigue.vercel.app/",
-  },
 };
 
 export default function RootLayout({
